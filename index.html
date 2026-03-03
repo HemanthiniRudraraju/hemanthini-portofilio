@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hemanthini Rudraraju | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f9f9ff;
+    color: #333;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    z-index: 1000;
+}
+
+nav h2 {
+    color: #6a5acd;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #6a5acd;
+}
+
+section {
+    padding: 100px 50px;
+    min-height: 100vh;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: #6a5acd;
+}
+
+.hero-text p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #6a5acd;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #4b3fbf;
+}
+
+.profile-img {
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.skill-box {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+}
+
+@media(max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav {
+        padding: 15px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Hemanthini</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h1>Hemanthini Rudraraju</h1>
+        <h3>Aspiring Data Analyst & AI Enthusiast</h3>
+        <p>B.Tech in Artificial Intelligence & Data Science | Passionate Learner | Future Data Analyst</p>
+        <a href="#projects" class="btn">View Portfolio</a>
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+    <img src="https://via.placeholder.com/250" alt="Profile" class="profile-img">
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>I am a dedicated AI & Data Science student passionate about programming and music. I love learning new technologies and aim to secure a challenging job while continuing higher studies. I am especially interested in Data Analysis.</p>
+        <br>
+        <p><strong>Education:</strong><br>
+        B.Tech in Artificial Intelligence & Data Science<br>
+        Annamacharya Institute of Technology and Sciences<br>
+        Expected Graduation: 2027</p>
+        <br>
+        <p><strong>Professional Status:</strong> Fresher (Participated in workshops & seminars)</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill-box">Python</div>
+        <div class="skill-box">Java</div>
+        <div class="skill-box">HTML</div>
+        <div class="skill-box">Machine Learning</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+        <h3>Community Service Project (CSP)</h3>
+        <p>Water Access to Villages & Water Sustainability</p>
+        <p>This project focused on analyzing water access issues in rural villages and exploring sustainable water management solutions.</p>
+    </div>
+</section>
+
+<section id="goals">
+    <h2>Career Goals</h2>
+    <div class="card">
+        <p>✔ Aspiring Data Analyst</p>
+        <p>✔ Interested in Data-Driven Solutions</p>
+        <p>✔ Passionate about extracting insights from data</p>
+        <p>✔ Planning to continue higher studies</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+        <p>Email: hemanthini0804@gmail.com</p>
+        <p>Phone: 7013594627</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/hemanthini-rudraraju-0372a136b" target="_blank">View Profile</a></p>
+        <p>GitHub: <a href="https://github.com/HemanthiniRudraraju/Hemanthini" target="_blank">View GitHub</a></p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Hemanthini Rudraraju. All Rights Reserved.
+</footer>
+
+</body>
+</html>
